@@ -1,0 +1,26 @@
+Зависимости:
+import sys
+import requests as rq
+import datetime as dt
+import time as tm
+import json
+from pprint import pprint
+
+
+
+Константы в коде должны бюыть заполнены, для его корректного выполнения.
+Непосредственно после строк импорта.
+
+RMT_FOLDER_PATH = 'some_folder_name'  # input('Remote folder name: ') # etc... Выберите имя для удалённой папки, куда загрузятся фотографии.
+PHOTOS_COUNT = 5 # выберите количество этих фотографий
+
+VK_TOKEN = '' # укажите токен, полученный по этой инструкции. https://docs.google.com/document/d/1_xt16CMeaEir-tWLbUFyleZl6woEdJt-7eyva1coT3w/edit#heading=h.wcc5jni1nn2j
+# не забудьте порезать у токена хвост из оставшихся параметров url, пожалуйста
+VK_USER_ID = ''  # укажите ID того, код кем создавалось приложение VK перед генерпцией токена
+VK_ALBUM_ID = '' # укажите ID альбома VK из которого грузить картинки
+
+YAD_TOKEN = '' # токен полигона Яндекса
+
+
+
+# папке с main.py будут созданы файлы report_files.json, запрошенного формата, и log.txt.
