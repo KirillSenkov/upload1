@@ -3,7 +3,7 @@ import requests as rq
 import datetime as dt
 import time as tm
 import json
-from pprint import pprint
+from pprint import pprint as pp
 
 RMT_FOLDER_PATH = 'some_folder_name'  # input('Remote folder name: ')
 PHOTOS_COUNT = 5
